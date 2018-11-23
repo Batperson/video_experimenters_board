@@ -1,0 +1,6 @@
+(fp_lib_table
+  (lib (name veb)(type KiCad)(uri "$(KIPRJMOD)/veb.pretty")(options "")(descr ""))
+  (lib (name Mounting_Holes)(type KiCad)(uri "$(KISYSMOD)/Mounting_Holes.pretty")(options "")(descr ""))
+  (lib (name Fiducials)(type KiCad)(uri "$(KISYSMOD)/Fiducials.pretty")(options "")(descr ""))
+  (lib (name Downloads)(type KiCad)(uri "$(KISYSMOD)/Downloads.pretty")(options "")(descr ""))
+)

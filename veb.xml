@@ -1,0 +1,2057 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Peter\KiCad\VideoExperimentersBoard\veb.sch</source>
+    <date>23/11/2018 5:13:45 PM</date>
+    <tool>Eeschema (5.0.0)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>veb.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/veb_1/" tstamps="/5AC0C6B9/">
+      <title_block>
+        <title>Video Experimenter's Board ADC Section</title>
+        <company/>
+        <rev>0.1</rev>
+        <date>2018-04-14</date>
+        <source>veb_1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/veb_2/" tstamps="/5AC0CCA5/">
+      <title_block>
+        <title>Video Experimenter's Board DAC and Power section</title>
+        <company/>
+        <rev>0.1</rev>
+        <date/>
+        <source>veb_2.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>ADV7184</value>
+      <footprint>veb:LQFP80</footprint>
+      <libsource lib="veb-eagle-import" part="ADV7184" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>94FABF20</tstamp>
+    </comp>
+    <comp ref="C33">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>6F0966D9</tstamp>
+    </comp>
+    <comp ref="C32">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>2FB3EFC1</tstamp>
+    </comp>
+    <comp ref="C31">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>A422607A</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>27pf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-27PF-50V-5%-NPO(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>FC765BE6</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>27pf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-27PF-50V-5%-NPO(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>53D70314</tstamp>
+    </comp>
+    <comp ref="C30">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>6689BFDA</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>523D81F2</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>8D0E5D47</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>100R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-100R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>7C684F18</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>75R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>44088253</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>75R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>615C8FA0</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>75R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>7BC8047C</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>19R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-15R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>C467FE7D</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>56R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-56.2R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>769AE0E1</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>100R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-100R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>CE756263</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>100R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-100R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>1338A13A</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>2K</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-2K-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>CB8464B5</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>2K</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-2K-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>29C97B5E</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>4.7K</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-4.7K-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>F4292569</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>B7628865</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>E68AD191</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>8A45F3F5</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>B2718FB7</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>25BE7B9B</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>FA3D2209</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>A50F88C8</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>3A80109A</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>D5ED977D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>D3712CF3</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>28.63636</value>
+      <footprint>veb:HC49_S-SMD</footprint>
+      <libsource lib="veb-eagle-import" part="CRYSTALHC49S" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>458ACA85</tstamp>
+    </comp>
+    <comp ref="JP3">
+      <value>PINHD-1X41X04_SMT</value>
+      <footprint>veb:1X04_SMT</footprint>
+      <libsource lib="veb-eagle-import" part="PINHD-1X41X04_SMT" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>0B60073D</tstamp>
+    </comp>
+    <comp ref="JP2">
+      <value>PINHD-1X51X05_SMT</value>
+      <footprint>veb:1X05_SMT</footprint>
+      <libsource lib="veb-eagle-import" part="PINHD-1X51X05_SMT" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>BAFA783C</tstamp>
+    </comp>
+    <comp ref="C29">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>A27C3956</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>19R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-15R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>FCE10C8A</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>56R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-56.2R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>3058251E</tstamp>
+    </comp>
+    <comp ref="C27">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>918A264D</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>4.7K</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-4.7K-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>9BA08234</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>1M</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-698K-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>E6E45E78</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>1.7K 1/10W</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-1.6K-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>C2F784EC</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>82nF</value>
+      <footprint>veb:C0805</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-27PF-50V-5%-NPO(0805)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>8071E0EF</tstamp>
+    </comp>
+    <comp ref="C26">
+      <value>10nf</value>
+      <footprint>veb:C0805</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-5%-X7R(0805)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>194C9AB9</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>10uF</value>
+      <footprint>veb:C0805</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100PF-50V-5%-NPO(0805)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>E0D23C37</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>CB7066E4</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>1nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-1NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>D0CE616F</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>BE8FD660</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>10uF</value>
+      <footprint>veb:C0805</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100PF-50V-5%-NPO(0805)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>FE0DD2C4</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>058CC0A1</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>1nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-1NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>8DE3367F</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>C9502F30</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>18A357DF</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>33A92BDB</tstamp>
+    </comp>
+    <comp ref="C34">
+      <value>10uF</value>
+      <footprint>veb:C0805</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100PF-50V-5%-NPO(0805)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>B70701F1</tstamp>
+    </comp>
+    <comp ref="C35">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>235E1F38</tstamp>
+    </comp>
+    <comp ref="C36">
+      <value>10uF</value>
+      <footprint>veb:C0805</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100PF-50V-5%-NPO(0805)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5C8EF826</tstamp>
+    </comp>
+    <comp ref="C37">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>C621358D</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>33</value>
+      <footprint>veb:0603-ARV</footprint>
+      <libsource lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>A33A078D</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>33</value>
+      <footprint>veb:0603-ARV</footprint>
+      <libsource lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>322B0D66</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>33</value>
+      <footprint>veb:0603-ARV</footprint>
+      <libsource lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>7B47F1CD</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>33</value>
+      <footprint>veb:0603-ARV</footprint>
+      <libsource lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>657F8A28</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>33R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-33R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>C8A89AD7</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>4.7K</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-4.7K-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>7BD3BAE3</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>33R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-33R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>BD2AA6AE</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>BZX384-C3V3</value>
+      <footprint>veb:SOD2512X110N</footprint>
+      <libsource lib="veb-eagle-import" part="BZX384-C3V3" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>C78C3FBD</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>PINHD-1X31X03_SMT</value>
+      <footprint>veb:1X03_SMT</footprint>
+      <libsource lib="veb-eagle-import" part="PINHD-1X31X03_SMT" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>357D3C8D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>33</value>
+      <footprint>veb:0603-ARV</footprint>
+      <libsource lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>A73FA854</tstamp>
+    </comp>
+    <comp ref="C28">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5BE120F4</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>19R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-15R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5BE12218</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>56R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-56.2R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5BFD5076</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>CONN_COAXIAL</value>
+      <footprint>Downloads:RCA</footprint>
+      <libsource lib="veb-rescue" part="CONN_COAXIAL-conn" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5AD40528</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_COAXIAL</value>
+      <footprint>Downloads:RCA</footprint>
+      <libsource lib="veb-rescue" part="CONN_COAXIAL-conn" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5AD411AC</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>CONN_COAXIAL</value>
+      <footprint>Downloads:RCA</footprint>
+      <libsource lib="veb-rescue" part="CONN_COAXIAL-conn" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5AD413AE</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>33</value>
+      <footprint>veb:0603-ARV</footprint>
+      <libsource lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV" description=""/>
+      <sheetpath names="/veb_1/" tstamps="/5AC0C6B9/"/>
+      <tstamp>5AE884EE</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>ADV7341BSTZ</value>
+      <footprint>veb:ST_64_2</footprint>
+      <libsource lib="veb-eagle-import" part="ADV7341BSTZ" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>4E0AB7A9</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>100R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-100R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>7A9594E2</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>100R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-100R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>7723F3CD</tstamp>
+    </comp>
+    <comp ref="C53">
+      <value>2.2nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-2.2NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>24C2E1D3</tstamp>
+    </comp>
+    <comp ref="C54">
+      <value>2.2nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-2.2NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>26CB4DFC</tstamp>
+    </comp>
+    <comp ref="C45">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>1C6ECC23</tstamp>
+    </comp>
+    <comp ref="C47">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>A05F4458</tstamp>
+    </comp>
+    <comp ref="C42">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>E0E79F63</tstamp>
+    </comp>
+    <comp ref="C46">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>053741FA</tstamp>
+    </comp>
+    <comp ref="C48">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>301D25A6</tstamp>
+    </comp>
+    <comp ref="C49">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>EC88CE96</tstamp>
+    </comp>
+    <comp ref="C39">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>3A396F94</tstamp>
+    </comp>
+    <comp ref="C41">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>CD1CF7E8</tstamp>
+    </comp>
+    <comp ref="C38">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>34FDD5A8</tstamp>
+    </comp>
+    <comp ref="C40">
+      <value>10nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>3E31F050</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>510R (0.1% / 1%)</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-510R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>5B4B60BC</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>4.12K (0.1% / 1%)</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-4.53K-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>711109C6</tstamp>
+    </comp>
+    <comp ref="JP5">
+      <value>PINHD-1X31X03_SMT</value>
+      <footprint>veb:1X03_SMT</footprint>
+      <libsource lib="veb-eagle-import" part="PINHD-1X31X03_SMT" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>A21E5090</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>33R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-33R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>516A8834</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>33R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-33R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>6EBD2D0D</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>4.7k</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-33R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>964CD7ED</tstamp>
+    </comp>
+    <comp ref="C57">
+      <value>12nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>563D001D</tstamp>
+    </comp>
+    <comp ref="C59">
+      <value>150NF</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-150NF-25V-10%(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>7635FAA7</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>170R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-150R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>C143BB94</tstamp>
+    </comp>
+    <comp ref="C58">
+      <value>12nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>F51AE69F</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>170R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-150R-1%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>CF391AEB</tstamp>
+    </comp>
+    <comp ref="C60">
+      <value>150NF</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-150NF-25V-10%(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>2D2B1585</tstamp>
+    </comp>
+    <comp ref="C51">
+      <value>33uF</value>
+      <footprint>veb:EIA3528</footprint>
+      <libsource lib="veb-eagle-import" part="47UF-10V-10%(TANT)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>15AD3E7A</tstamp>
+    </comp>
+    <comp ref="C50">
+      <value>33uF</value>
+      <footprint>veb:EIA3528</footprint>
+      <libsource lib="veb-eagle-import" part="47UF-10V-10%(TANT)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>0BE0AF62</tstamp>
+    </comp>
+    <comp ref="C55">
+      <value>220uF</value>
+      <footprint>veb:CPOL-RADIAL-100UF-25V</footprint>
+      <libsource lib="veb-eagle-import" part="100UF-25V-20%(PTH)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>82FD7AC8</tstamp>
+    </comp>
+    <comp ref="FL1">
+      <value>NFE61PT472C1H9L</value>
+      <footprint>veb:6816</footprint>
+      <libsource lib="veb-eagle-import" part="NFE61PT472C1H9L" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>A7F840A3</tstamp>
+    </comp>
+    <comp ref="FL2">
+      <value>NFE61PT472C1H9L</value>
+      <footprint>veb:6816</footprint>
+      <libsource lib="veb-eagle-import" part="NFE61PT472C1H9L" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>07D14D47</tstamp>
+    </comp>
+    <comp ref="FL3">
+      <value>NFE61PT472C1H9L</value>
+      <footprint>veb:6816</footprint>
+      <libsource lib="veb-eagle-import" part="NFE61PT472C1H9L" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>8A30BBF3</tstamp>
+    </comp>
+    <comp ref="FL4">
+      <value>NFE61PT472C1H9L</value>
+      <footprint>veb:6816</footprint>
+      <libsource lib="veb-eagle-import" part="NFE61PT472C1H9L" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>25F8C1F9</tstamp>
+    </comp>
+    <comp ref="C56">
+      <value>33uF</value>
+      <footprint>veb:EIA3528</footprint>
+      <libsource lib="veb-eagle-import" part="47UF-10V-10%(TANT)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>D99F3629</tstamp>
+    </comp>
+    <comp ref="C61">
+      <value>33uF</value>
+      <footprint>veb:EIA3528</footprint>
+      <libsource lib="veb-eagle-import" part="47UF-10V-10%(TANT)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>E0265570</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>4.7K</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-4.7K-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>F7986E7A</tstamp>
+    </comp>
+    <comp ref="C52">
+      <value>100nf</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>5E8EEE4F</tstamp>
+    </comp>
+    <comp ref="C43">
+      <value>1UF 6.3V</value>
+      <footprint>veb:C0402</footprint>
+      <libsource lib="veb-eagle-import" part="CERAMIC-1UF-6.3V-10%-X5R(0402)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>B71A719B</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>75R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>8DD45CC5</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>75R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>F0230BC1</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>75R</value>
+      <footprint>veb:R0603</footprint>
+      <libsource lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>684865A5</tstamp>
+    </comp>
+    <comp ref="JP4">
+      <value>PINHD-1X31X03_SMT</value>
+      <footprint>veb:1X03_SMT</footprint>
+      <libsource lib="veb-eagle-import" part="PINHD-1X31X03_SMT" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>ADC4B3B7</tstamp>
+    </comp>
+    <comp ref="C44">
+      <value>220uF</value>
+      <footprint>veb:CPOL-RADIAL-100UF-25V</footprint>
+      <libsource lib="veb-eagle-import" part="100UF-25V-20%(PTH)" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>B3A99B81</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>CONN_COAXIAL</value>
+      <footprint>Downloads:RCA</footprint>
+      <libsource lib="veb-rescue" part="CONN_COAXIAL-conn" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>5AFBB73C</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>CONN_COAXIAL</value>
+      <footprint>Downloads:RCA</footprint>
+      <libsource lib="veb-rescue" part="CONN_COAXIAL-conn" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>5AFBB966</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>CONN_COAXIAL</value>
+      <footprint>Downloads:RCA</footprint>
+      <libsource lib="veb-rescue" part="CONN_COAXIAL-conn" description=""/>
+      <sheetpath names="/veb_2/" tstamps="/5AC0CCA5/"/>
+      <tstamp>5AFBB9DE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="veb-eagle-import" part="100UF-25V-20%(PTH)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">100UF-25V-20%(PTH)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="47UF-10V-10%(TANT)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">47UF-10V-10%(TANT)</field>
+      </fields>
+      <pins>
+        <pin num="A" name="+" type="passive"/>
+        <pin num="C" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="ADV7184">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ADV7184</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VS" type="output"/>
+        <pin num="2" name="HS" type="output"/>
+        <pin num="3" name="DGND" type="power_in"/>
+        <pin num="4" name="DVDDIO" type="power_in"/>
+        <pin num="5" name="P11" type="output"/>
+        <pin num="6" name="P10" type="output"/>
+        <pin num="7" name="P9" type="output"/>
+        <pin num="8" name="P8" type="output"/>
+        <pin num="9" name="DGND@1" type="power_in"/>
+        <pin num="10" name="DVDD" type="power_in"/>
+        <pin num="11" name="INT" type="output"/>
+        <pin num="12" name="SFL" type="output"/>
+        <pin num="13" name="TEST2" type="passive"/>
+        <pin num="14" name="DGND@2" type="power_in"/>
+        <pin num="15" name="DVDDIO@1" type="power_in"/>
+        <pin num="16" name="TEST8" type="passive"/>
+        <pin num="17" name="TEST12" type="passive"/>
+        <pin num="18" name="TEST11" type="passive"/>
+        <pin num="19" name="P7" type="output"/>
+        <pin num="20" name="P6" type="output"/>
+        <pin num="21" name="P5" type="output"/>
+        <pin num="22" name="P4" type="output"/>
+        <pin num="23" name="P3" type="output"/>
+        <pin num="24" name="P2" type="output"/>
+        <pin num="25" name="TEST3" type="passive"/>
+        <pin num="26" name="LLC2" type="output"/>
+        <pin num="27" name="LLC1" type="output"/>
+        <pin num="28" name="XTAL1" type="output"/>
+        <pin num="29" name="XTAL" type="input"/>
+        <pin num="30" name="DVDD@1" type="power_in"/>
+        <pin num="31" name="DGND@3" type="power_in"/>
+        <pin num="32" name="P1" type="output"/>
+        <pin num="33" name="P0" type="output"/>
+        <pin num="34" name="TEST10" type="passive"/>
+        <pin num="35" name="TEST9" type="passive"/>
+        <pin num="36" name="PWRDN" type="input"/>
+        <pin num="37" name="ELPF" type="input"/>
+        <pin num="38" name="PVDD" type="power_in"/>
+        <pin num="39" name="AGND" type="power_in"/>
+        <pin num="40" name="FB" type="input"/>
+        <pin num="41" name="AIN7" type="input"/>
+        <pin num="42" name="AIN1" type="input"/>
+        <pin num="43" name="AIN8" type="input"/>
+        <pin num="44" name="AIN2" type="input"/>
+        <pin num="45" name="AIN9" type="input"/>
+        <pin num="46" name="AIN3" type="input"/>
+        <pin num="47" name="AGND@1" type="power_in"/>
+        <pin num="48" name="CAPY1" type="input"/>
+        <pin num="49" name="CAPY2" type="input"/>
+        <pin num="50" name="AVDD" type="power_in"/>
+        <pin num="51" name="REFOUT" type="output"/>
+        <pin num="52" name="CML" type="output"/>
+        <pin num="53" name="AGND@2" type="power_in"/>
+        <pin num="54" name="CAPC1" type="input"/>
+        <pin num="55" name="CAPC2" type="input"/>
+        <pin num="56" name="AGND@3" type="power_in"/>
+        <pin num="57" name="AIN10" type="input"/>
+        <pin num="58" name="AIN4" type="input"/>
+        <pin num="59" name="AIN11" type="input"/>
+        <pin num="60" name="AIN5" type="input"/>
+        <pin num="61" name="AIN12" type="input"/>
+        <pin num="62" name="AIN6" type="input"/>
+        <pin num="63" name="SOY" type="input"/>
+        <pin num="64" name="RESET" type="input"/>
+        <pin num="65" name="TEST7" type="passive"/>
+        <pin num="66" name="ALSB" type="input"/>
+        <pin num="67" name="SDA" type="BiDi"/>
+        <pin num="68" name="SCLK" type="input"/>
+        <pin num="69" name="TEST4" type="passive"/>
+        <pin num="70" name="TEST0" type="passive"/>
+        <pin num="71" name="DGND@4" type="power_in"/>
+        <pin num="72" name="DVDD@2" type="power_in"/>
+        <pin num="73" name="P15" type="output"/>
+        <pin num="74" name="P14" type="output"/>
+        <pin num="75" name="P13" type="output"/>
+        <pin num="76" name="P12" type="output"/>
+        <pin num="77" name="TEST6" type="passive"/>
+        <pin num="78" name="TEST1" type="passive"/>
+        <pin num="79" name="OE" type="input"/>
+        <pin num="80" name="FIELD" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="ADV7341BSTZ">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ADV7341BSTZ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDI_IO" type="passive"/>
+        <pin num="2" name="Y0" type="passive"/>
+        <pin num="3" name="Y1" type="passive"/>
+        <pin num="4" name="Y2" type="passive"/>
+        <pin num="5" name="Y3" type="passive"/>
+        <pin num="6" name="Y4" type="passive"/>
+        <pin num="7" name="Y5" type="passive"/>
+        <pin num="8" name="Y6" type="passive"/>
+        <pin num="9" name="Y7" type="passive"/>
+        <pin num="10" name="VDD_2" type="passive"/>
+        <pin num="11" name="DGND_2" type="passive"/>
+        <pin num="12" name="Y8" type="passive"/>
+        <pin num="13" name="Y9" type="passive"/>
+        <pin num="14" name="C0" type="passive"/>
+        <pin num="15" name="C1" type="passive"/>
+        <pin num="16" name="C2" type="passive"/>
+        <pin num="17" name="C3" type="passive"/>
+        <pin num="18" name="C4" type="passive"/>
+        <pin num="19" name="ALSB" type="passive"/>
+        <pin num="20" name="SDA" type="passive"/>
+        <pin num="21" name="SCL" type="passive"/>
+        <pin num="22" name="P_HSYNC" type="passive"/>
+        <pin num="23" name="P_VSYNC" type="passive"/>
+        <pin num="24" name="P_BLANK" type="passive"/>
+        <pin num="25" name="C5" type="passive"/>
+        <pin num="26" name="C6" type="passive"/>
+        <pin num="27" name="C7" type="passive"/>
+        <pin num="28" name="C8" type="passive"/>
+        <pin num="29" name="C9" type="passive"/>
+        <pin num="30" name="CLKIN_A" type="passive"/>
+        <pin num="31" name="EXT_LF2" type="passive"/>
+        <pin num="32" name="PGND" type="passive"/>
+        <pin num="33" name="EXT_LF1" type="passive"/>
+        <pin num="34" name="PVDD" type="passive"/>
+        <pin num="35" name="COMP2" type="passive"/>
+        <pin num="36" name="RSET2" type="passive"/>
+        <pin num="37" name="DAC_6" type="passive"/>
+        <pin num="38" name="DAC_5" type="passive"/>
+        <pin num="39" name="DAC_4" type="passive"/>
+        <pin num="40" name="AGND" type="passive"/>
+        <pin num="41" name="VAA" type="passive"/>
+        <pin num="42" name="DAC_3" type="passive"/>
+        <pin num="43" name="DAC_2" type="passive"/>
+        <pin num="44" name="DAC_1" type="passive"/>
+        <pin num="45" name="COMP1" type="passive"/>
+        <pin num="46" name="VREF" type="passive"/>
+        <pin num="47" name="RSET1" type="passive"/>
+        <pin num="48" name="SFL" type="passive"/>
+        <pin num="49" name="S_VSYNC" type="passive"/>
+        <pin num="50" name="S_HSYNC" type="passive"/>
+        <pin num="51" name="S0" type="passive"/>
+        <pin num="52" name="S1" type="passive"/>
+        <pin num="53" name="S2" type="passive"/>
+        <pin num="54" name="S3" type="passive"/>
+        <pin num="55" name="S4" type="passive"/>
+        <pin num="56" name="VDD" type="passive"/>
+        <pin num="57" name="DGND" type="passive"/>
+        <pin num="58" name="S5" type="passive"/>
+        <pin num="59" name="S6" type="passive"/>
+        <pin num="60" name="S7" type="passive"/>
+        <pin num="61" name="S8" type="passive"/>
+        <pin num="62" name="S9" type="passive"/>
+        <pin num="63" name="CLKIN_B" type="passive"/>
+        <pin num="64" name="GND_IO" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="BZX384-C3V3">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BZX384-C3V3</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-100NF-25V-10%-X7R(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-100NF-25V-10%-X7R(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-100PF-50V-5%-NPO(0805)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-100PF-50V-5%-NPO(0805)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-10NF-50V-10%-X7R(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10NF-50V-10%-X7R(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-10NF-50V-5%-X7R(0805)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10NF-50V-5%-X7R(0805)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-150NF-25V-10%(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-150NF-25V-10%(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-1NF-50V-10%-X7R(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-1NF-50V-10%-X7R(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-1UF-6.3V-10%-X5R(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-1UF-6.3V-10%-X5R(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-2.2NF-50V-10%-X7R(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-2.2NF-50V-10%-X7R(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-27PF-50V-5%-NPO(0402)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-27PF-50V-5%-NPO(0402)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CERAMIC-27PF-50V-5%-NPO(0805)">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-27PF-50V-5%-NPO(0805)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="CRYSTALHC49S">
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">CRYSTALHC49S</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="NFE61PT472C1H9L">
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">NFE61PT472C1H9L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="PINHD-1X31X03_SMT">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X31X03_SMT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="PINHD-1X41X04_SMT">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X41X04_SMT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="PINHD-1X51X05_SMT">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">PINHD-1X51X05_SMT</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="RESISTOR-ARRAY0603-ARV">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RESISTOR-ARRAY0603-ARV</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="1" type="passive"/>
+        <pin num="3" name="1" type="passive"/>
+        <pin num="4" name="1" type="passive"/>
+        <pin num="5" name="2" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="2" type="passive"/>
+        <pin num="8" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-1.6K-5%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-1.6K-5%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-100R-5%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-100R-5%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-150R-1%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-150R-1%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-15R-5%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-15R-5%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-2K-1%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-2K-1%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-33R-1%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-33R-1%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-4.53K-1%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-4.53K-1%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-4.7K-5%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-4.7K-5%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-510R-5%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-510R-5%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-56.2R-1%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-56.2R-1%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-698K-1%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-698K-1%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-eagle-import" part="SMD-RES-75R-5%-1_10W(0603)">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-75R-5%-1_10W(0603)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="veb-rescue" part="CONN_COAXIAL-conn">
+      <footprints>
+        <fp>*BNC*</fp>
+        <fp>*SMA*</fp>
+        <fp>*SMB*</fp>
+        <fp>*SMC*</fp>
+        <fp>*Cinch*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CONN_COAXIAL-conn</field>
+      </fields>
+      <pins>
+        <pin num="1" name="In" type="passive"/>
+        <pin num="2" name="Ext" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="veb-eagle-import">
+      <uri>C:\Peter\KiCad\VideoExperimentersBoard/veb-eagle-import.lib</uri>
+    </library>
+    <library logical="veb-rescue">
+      <uri>C:\Peter\KiCad\VideoExperimentersBoard/veb-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C61" pin="C"/>
+      <node ref="C56" pin="C"/>
+      <node ref="C44" pin="2"/>
+      <node ref="J2" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C51" pin="C"/>
+      <node ref="C50" pin="C"/>
+      <node ref="R29" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="J3" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="R30" pin="2"/>
+      <node ref="JP5" pin="2"/>
+      <node ref="C43" pin="1"/>
+      <node ref="R34" pin="1"/>
+      <node ref="R37" pin="1"/>
+      <node ref="JP4" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="FL1" pin="2"/>
+      <node ref="FL2" pin="2"/>
+      <node ref="FL3" pin="2"/>
+      <node ref="FL4" pin="2"/>
+      <node ref="C35" pin="2"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U1" pin="47"/>
+      <node ref="U1" pin="45"/>
+      <node ref="U1" pin="43"/>
+      <node ref="U1" pin="41"/>
+      <node ref="U1" pin="39"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="U1" pin="31"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C34" pin="2"/>
+      <node ref="C36" pin="2"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C27" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="JP1" pin="3"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U1" pin="53"/>
+      <node ref="U1" pin="79"/>
+      <node ref="U1" pin="9"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="R19" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="U1" pin="56"/>
+      <node ref="U1" pin="57"/>
+      <node ref="U1" pin="59"/>
+      <node ref="U1" pin="61"/>
+      <node ref="U1" pin="63"/>
+      <node ref="U1" pin="65"/>
+      <node ref="R20" pin="1"/>
+      <node ref="U1" pin="69"/>
+      <node ref="U1" pin="70"/>
+      <node ref="U1" pin="71"/>
+      <node ref="U1" pin="77"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="R40" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="JP2" pin="3"/>
+      <node ref="R17" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="R18" pin="1"/>
+      <node ref="J1" pin="2"/>
+      <node ref="U2" pin="60"/>
+      <node ref="C42" pin="2"/>
+      <node ref="C46" pin="2"/>
+      <node ref="C48" pin="2"/>
+      <node ref="U2" pin="51"/>
+      <node ref="U2" pin="52"/>
+      <node ref="U2" pin="53"/>
+      <node ref="U2" pin="54"/>
+      <node ref="U2" pin="55"/>
+      <node ref="U2" pin="57"/>
+      <node ref="U2" pin="58"/>
+      <node ref="U2" pin="59"/>
+      <node ref="C45" pin="1"/>
+      <node ref="U2" pin="61"/>
+      <node ref="U2" pin="62"/>
+      <node ref="U2" pin="63"/>
+      <node ref="U2" pin="64"/>
+      <node ref="U2" pin="11"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U2" pin="37"/>
+      <node ref="U2" pin="38"/>
+      <node ref="U2" pin="39"/>
+      <node ref="U2" pin="40"/>
+      <node ref="U2" pin="32"/>
+      <node ref="C47" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="J4" pin="2"/>
+      <node ref="J6" pin="2"/>
+    </net>
+    <net code="2" name="/veb_1/XTAL1">
+      <node ref="R3" pin="2"/>
+      <node ref="U1" pin="28"/>
+      <node ref="C23" pin="2"/>
+      <node ref="Q1" pin="1"/>
+    </net>
+    <net code="3" name="/veb_1/XTAL">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="29"/>
+      <node ref="Q1" pin="2"/>
+      <node ref="C24" pin="2"/>
+    </net>
+    <net code="4" name="/veb_1/PWRDN">
+      <node ref="U1" pin="36"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="5" name="AVDD">
+      <node ref="U1" pin="50"/>
+      <node ref="C43" pin="2"/>
+      <node ref="C50" pin="A"/>
+      <node ref="C47" pin="2"/>
+      <node ref="U2" pin="41"/>
+      <node ref="C53" pin="1"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C52" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="FL1" pin="3"/>
+    </net>
+    <net code="6" name="/veb_1/CAPC2">
+      <node ref="U1" pin="55"/>
+      <node ref="C14" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C22" pin="2"/>
+    </net>
+    <net code="7" name="/veb_1/CAPC1">
+      <node ref="U1" pin="54"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="U1" pin="49"/>
+    </net>
+    <net code="8" name="/veb_1/CML">
+      <node ref="U1" pin="52"/>
+      <node ref="C34" pin="1"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="9" name="/veb_1/REFOUT">
+      <node ref="U1" pin="51"/>
+      <node ref="C37" pin="1"/>
+      <node ref="C36" pin="1"/>
+    </net>
+    <net code="10" name="/veb_1/CAPY1">
+      <node ref="C21" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="U1" pin="48"/>
+    </net>
+    <net code="11" name="/veb_1/ELPF">
+      <node ref="R6" pin="1"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="12" name="Net-(C25-Pad2)">
+      <node ref="R6" pin="2"/>
+      <node ref="C25" pin="2"/>
+    </net>
+    <net code="13" name="PVDD">
+      <node ref="C58" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C26" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="U2" pin="34"/>
+      <node ref="C38" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C40" pin="1"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C56" pin="A"/>
+      <node ref="C57" pin="2"/>
+      <node ref="FL3" pin="3"/>
+      <node ref="C59" pin="2"/>
+      <node ref="U1" pin="38"/>
+    </net>
+    <net code="14" name="/veb_1/FB_I">
+      <node ref="U1" pin="40"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="15" name="/veb_1/FB">
+      <node ref="JP2" pin="5"/>
+      <node ref="D1" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="16" name="/veb_1/CVBS2">
+      <node ref="J2" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="R20" pin="2"/>
+    </net>
+    <net code="17" name="/veb_1/RIN">
+      <node ref="JP2" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="R19" pin="2"/>
+    </net>
+    <net code="18" name="Net-(C28-Pad2)">
+      <node ref="R14" pin="1"/>
+      <node ref="C28" pin="2"/>
+    </net>
+    <net code="19" name="/veb_1/AIN3">
+      <node ref="U1" pin="46"/>
+      <node ref="C28" pin="1"/>
+    </net>
+    <net code="20" name="/veb_1/AIN2">
+      <node ref="U1" pin="44"/>
+      <node ref="C29" pin="1"/>
+    </net>
+    <net code="21" name="/veb_1/AIN1">
+      <node ref="C30" pin="1"/>
+      <node ref="U1" pin="42"/>
+    </net>
+    <net code="22" name="Net-(C30-Pad2)">
+      <node ref="R16" pin="1"/>
+      <node ref="C30" pin="2"/>
+    </net>
+    <net code="23" name="Net-(C29-Pad2)">
+      <node ref="C29" pin="2"/>
+      <node ref="R15" pin="1"/>
+    </net>
+    <net code="24" name="/veb_1/CVBS3">
+      <node ref="R18" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="J3" pin="1"/>
+    </net>
+    <net code="25" name="DVDD">
+      <node ref="U1" pin="72"/>
+      <node ref="C19" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C16" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C46" pin="1"/>
+      <node ref="C61" pin="A"/>
+      <node ref="U2" pin="10"/>
+      <node ref="C42" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="C49" pin="1"/>
+      <node ref="U1" pin="30"/>
+      <node ref="U2" pin="56"/>
+      <node ref="U1" pin="10"/>
+      <node ref="FL4" pin="3"/>
+    </net>
+    <net code="26" name="/veb_1/TST12">
+      <node ref="U1" pin="17"/>
+      <node ref="R25" pin="4"/>
+    </net>
+    <net code="27" name="/veb_1/TST11">
+      <node ref="U1" pin="18"/>
+      <node ref="R25" pin="3"/>
+    </net>
+    <net code="28" name="/veb_1/P7">
+      <node ref="R25" pin="2"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="29" name="/veb_1/P6">
+      <node ref="R25" pin="1"/>
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="30" name="/veb_1/P12">
+      <node ref="U1" pin="76"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="31" name="/veb_1/P13">
+      <node ref="U1" pin="75"/>
+      <node ref="R27" pin="2"/>
+    </net>
+    <net code="32" name="/veb_1/P14">
+      <node ref="R27" pin="3"/>
+      <node ref="U1" pin="74"/>
+    </net>
+    <net code="33" name="/veb_1/P15">
+      <node ref="U1" pin="73"/>
+      <node ref="R27" pin="4"/>
+    </net>
+    <net code="34" name="/veb_1/BIN">
+      <node ref="JP2" pin="4"/>
+      <node ref="C33" pin="2"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="35" name="/veb_1/CVBS1">
+      <node ref="J1" pin="1"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R22" pin="2"/>
+    </net>
+    <net code="36" name="/veb_1/INT_I">
+      <node ref="U1" pin="11"/>
+      <node ref="R1" pin="2"/>
+    </net>
+    <net code="37" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="38" name="Net-(U1-Pad26)">
+      <node ref="U1" pin="26"/>
+    </net>
+    <net code="39" name="DVDDIO">
+      <node ref="R28" pin="1"/>
+      <node ref="FL2" pin="3"/>
+      <node ref="C41" pin="1"/>
+      <node ref="C39" pin="1"/>
+      <node ref="C51" pin="A"/>
+      <node ref="R31" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="15"/>
+      <node ref="U1" pin="16"/>
+      <node ref="U1" pin="4"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R11" pin="1"/>
+    </net>
+    <net code="40" name="PX00">
+      <node ref="U2" pin="14"/>
+      <node ref="R23" pin="8"/>
+    </net>
+    <net code="41" name="SDA">
+      <node ref="R32" pin="2"/>
+      <node ref="JP1" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="42" name="/veb_1/TST9">
+      <node ref="R23" pin="1"/>
+      <node ref="U1" pin="35"/>
+    </net>
+    <net code="43" name="/veb_1/P2">
+      <node ref="R24" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="44" name="/veb_1/P3">
+      <node ref="R24" pin="2"/>
+      <node ref="U1" pin="23"/>
+    </net>
+    <net code="45" name="/veb_1/P4">
+      <node ref="U1" pin="22"/>
+      <node ref="R24" pin="3"/>
+    </net>
+    <net code="46" name="/veb_1/P5">
+      <node ref="U1" pin="21"/>
+      <node ref="R24" pin="4"/>
+    </net>
+    <net code="47" name="/veb_1/P1">
+      <node ref="R23" pin="4"/>
+      <node ref="U1" pin="32"/>
+    </net>
+    <net code="48" name="/veb_1/P0">
+      <node ref="U1" pin="33"/>
+      <node ref="R23" pin="3"/>
+    </net>
+    <net code="49" name="/veb_1/TST10">
+      <node ref="R23" pin="2"/>
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="50" name="/veb_1/SCLK_I">
+      <node ref="U1" pin="68"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="51" name="VS">
+      <node ref="R2" pin="6"/>
+      <node ref="JP3" pin="2"/>
+      <node ref="U2" pin="49"/>
+    </net>
+    <net code="52" name="HS">
+      <node ref="JP3" pin="3"/>
+      <node ref="U2" pin="50"/>
+      <node ref="R2" pin="7"/>
+    </net>
+    <net code="53" name="/veb_1/SDA_I">
+      <node ref="R8" pin="1"/>
+      <node ref="U1" pin="67"/>
+    </net>
+    <net code="54" name="PX18">
+      <node ref="U2" pin="12"/>
+      <node ref="R27" pin="6"/>
+    </net>
+    <net code="55" name="PX12">
+      <node ref="U2" pin="4"/>
+      <node ref="R26" pin="8"/>
+    </net>
+    <net code="56" name="LLC">
+      <node ref="R4" pin="1"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="57" name="/veb_1/INT">
+      <node ref="JP3" pin="4"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="58" name="/veb_1/FIELD">
+      <node ref="R2" pin="5"/>
+      <node ref="JP3" pin="1"/>
+    </net>
+    <net code="59" name="/veb_1/FIELD_O">
+      <node ref="R2" pin="4"/>
+      <node ref="U1" pin="80"/>
+    </net>
+    <net code="60" name="/veb_1/VS_O">
+      <node ref="R2" pin="3"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="61" name="/veb_1/HS_O">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="62" name="/veb_1/GIN">
+      <node ref="C31" pin="2"/>
+      <node ref="R17" pin="1"/>
+      <node ref="JP2" pin="1"/>
+    </net>
+    <net code="63" name="/veb_1/GIN_I">
+      <node ref="C31" pin="1"/>
+      <node ref="U1" pin="62"/>
+    </net>
+    <net code="64" name="/veb_1/RESET">
+      <node ref="C27" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="U1" pin="64"/>
+    </net>
+    <net code="65" name="/veb_1/ALSB">
+      <node ref="R12" pin="2"/>
+      <node ref="U1" pin="66"/>
+    </net>
+    <net code="66" name="SCLK">
+      <node ref="R33" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="67" name="PX08">
+      <node ref="U2" pin="28"/>
+      <node ref="R25" pin="8"/>
+    </net>
+    <net code="68" name="PX17">
+      <node ref="R27" pin="7"/>
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="69" name="PX16">
+      <node ref="U2" pin="8"/>
+      <node ref="R27" pin="8"/>
+    </net>
+    <net code="70" name="PX15">
+      <node ref="U2" pin="7"/>
+      <node ref="R26" pin="5"/>
+    </net>
+    <net code="71" name="PX14">
+      <node ref="R26" pin="6"/>
+      <node ref="U2" pin="6"/>
+    </net>
+    <net code="72" name="PX13">
+      <node ref="R26" pin="7"/>
+      <node ref="U2" pin="5"/>
+    </net>
+    <net code="73" name="PX09">
+      <node ref="R25" pin="7"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="74" name="PX07">
+      <node ref="R24" pin="5"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="75" name="PX06">
+      <node ref="U2" pin="26"/>
+      <node ref="R24" pin="6"/>
+    </net>
+    <net code="76" name="PX05">
+      <node ref="U2" pin="25"/>
+      <node ref="R24" pin="7"/>
+    </net>
+    <net code="77" name="PX04">
+      <node ref="R24" pin="8"/>
+      <node ref="U2" pin="18"/>
+    </net>
+    <net code="78" name="PX03">
+      <node ref="R23" pin="5"/>
+      <node ref="U2" pin="17"/>
+    </net>
+    <net code="79" name="PX02">
+      <node ref="R23" pin="6"/>
+      <node ref="U2" pin="16"/>
+    </net>
+    <net code="80" name="/veb_1/P10">
+      <node ref="U1" pin="6"/>
+      <node ref="R26" pin="3"/>
+    </net>
+    <net code="81" name="/veb_1/P8">
+      <node ref="U1" pin="8"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="82" name="/veb_1/P9">
+      <node ref="R26" pin="2"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="83" name="PX01">
+      <node ref="R23" pin="7"/>
+      <node ref="U2" pin="15"/>
+    </net>
+    <net code="84" name="/veb_1/P11">
+      <node ref="U1" pin="5"/>
+      <node ref="R26" pin="4"/>
+    </net>
+    <net code="85" name="PX19">
+      <node ref="U2" pin="13"/>
+      <node ref="R27" pin="5"/>
+    </net>
+    <net code="86" name="PX10">
+      <node ref="R25" pin="6"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="87" name="PX11">
+      <node ref="R25" pin="5"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="88" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="89" name="Net-(U1-Pad13)">
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="90" name="/veb_1/LLC1">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="91" name="Net-(U1-Pad78)">
+      <node ref="U1" pin="78"/>
+    </net>
+    <net code="92" name="/veb_1/RIN_I">
+      <node ref="C32" pin="1"/>
+      <node ref="U1" pin="60"/>
+    </net>
+    <net code="93" name="/veb_1/BIN_I">
+      <node ref="U1" pin="58"/>
+      <node ref="C33" pin="1"/>
+    </net>
+    <net code="94" name="Net-(C59-Pad1)">
+      <node ref="R38" pin="2"/>
+      <node ref="C59" pin="1"/>
+    </net>
+    <net code="95" name="Net-(C60-Pad1)">
+      <node ref="C60" pin="1"/>
+      <node ref="R39" pin="2"/>
+    </net>
+    <net code="96" name="Net-(JP5-Pad1)">
+      <node ref="JP5" pin="1"/>
+      <node ref="R35" pin="2"/>
+    </net>
+    <net code="97" name="Net-(JP5-Pad3)">
+      <node ref="R36" pin="2"/>
+      <node ref="JP5" pin="3"/>
+    </net>
+    <net code="98" name="/veb_2/DAC1">
+      <node ref="U2" pin="44"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="99" name="+3V3">
+      <node ref="JP4" pin="1"/>
+      <node ref="FL2" pin="1"/>
+      <node ref="FL1" pin="1"/>
+      <node ref="C44" pin="1"/>
+    </net>
+    <net code="100" name="/veb_2/TT_RQ_O">
+      <node ref="U2" pin="23"/>
+      <node ref="R35" pin="1"/>
+    </net>
+    <net code="101" name="/veb_2/SDA_I">
+      <node ref="U2" pin="20"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="102" name="/veb_2/SCLK_I">
+      <node ref="U2" pin="21"/>
+      <node ref="R33" pin="1"/>
+    </net>
+    <net code="103" name="/veb_2/DAC2">
+      <node ref="J5" pin="1"/>
+      <node ref="R37" pin="2"/>
+      <node ref="U2" pin="43"/>
+    </net>
+    <net code="104" name="/veb_2/DAC3">
+      <node ref="J6" pin="1"/>
+      <node ref="R40" pin="2"/>
+      <node ref="U2" pin="42"/>
+    </net>
+    <net code="105" name="+1V8">
+      <node ref="FL4" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="FL3" pin="1"/>
+      <node ref="JP4" pin="3"/>
+    </net>
+    <net code="106" name="/veb_2/VREF">
+      <node ref="C52" pin="2"/>
+      <node ref="U2" pin="46"/>
+    </net>
+    <net code="107" name="/veb_2/COMP2">
+      <node ref="U2" pin="35"/>
+      <node ref="C54" pin="1"/>
+    </net>
+    <net code="108" name="/veb_2/RSET2">
+      <node ref="U2" pin="36"/>
+      <node ref="R30" pin="1"/>
+    </net>
+    <net code="109" name="/veb_2/EXT_LF1">
+      <node ref="U2" pin="33"/>
+      <node ref="R38" pin="1"/>
+      <node ref="C57" pin="1"/>
+    </net>
+    <net code="110" name="/veb_2/RSET1">
+      <node ref="R29" pin="1"/>
+      <node ref="U2" pin="47"/>
+    </net>
+    <net code="111" name="/veb_2/TT_IN_I">
+      <node ref="R36" pin="1"/>
+      <node ref="U2" pin="48"/>
+    </net>
+    <net code="112" name="/veb_2/ALSB">
+      <node ref="R31" pin="1"/>
+      <node ref="U2" pin="19"/>
+    </net>
+    <net code="113" name="/veb_2/EXT_LF2">
+      <node ref="C58" pin="1"/>
+      <node ref="R39" pin="1"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="114" name="/veb_2/COMP1">
+      <node ref="U2" pin="45"/>
+      <node ref="C53" pin="2"/>
+    </net>
+    <net code="115" name="Net-(R28-Pad2)">
+      <node ref="R28" pin="2"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="24"/>
+    </net>
+  </nets>
+</export>

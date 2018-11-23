@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name veb-eagle-import)(type Legacy)(uri ${KIPRJMOD}/veb-eagle-import.lib)(options "")(descr ""))
+  (lib (name power)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/power.lib)(options "")(descr ""))
+  (lib (name conn)(type Legacy)(uri ${KICAD_SYMBOL_DIR}/conn.lib)(options "")(descr ""))
+  (lib (name veb-rescue)(type Legacy)(uri ${KIPRJMOD}/veb-rescue.lib)(options "")(descr ""))
+  (lib (name veb_2-rescue)(type Legacy)(uri ${KIPRJMOD}/veb_2-rescue.lib)(options "")(descr ""))
+  (lib (name veb_1-rescue)(type Legacy)(uri ${KIPRJMOD}/veb_1-rescue.lib)(options "")(descr ""))
+)
